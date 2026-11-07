@@ -49,7 +49,11 @@ Kelas "abusive" pada LSTM + Transformer: precision 0,93, recall 0,83, F1 0,88 (k
 
 **Interpretasi (SHAP).** Kata berwarna merah mendorong prediksi ke *abusive*, kata berwarna biru mendorong ke *non-abusive*. Pada sampel uji, kalimat dengan makian mendapat probabilitas abusive tinggi, sedangkan kalimat netral seperti ucapan terima kasih atau pertanyaan informasi mendapat probabilitas rendah.
 
-[Tambahkan grafik hasil (`training_comparison.png`, `confusion_matrices.png`, `validasi_laporan_lengkap.png`) ke folder `images/`.]
+![Distribusi data](images/distribusi.png)
+![Analisis error dan performa](images/analisis.png)
+![Perbandingan model](images/akurasi.png)
+![Confusion matrix](images/confus.png)
+![Interpretasi](images/inter.png)
 
 ## Keterbatasan
 
@@ -75,11 +79,3 @@ requirements.txt
 ## Teknologi
 
 Python, TensorFlow/Keras, scikit-learn, SHAP, pandas, matplotlib.
-
-## Peran
-
-Peran saya: **Programmer dan Project Manager**. [Tambahkan anggota tim jika ada, setelah mendapat izin.]
-
-## Lisensi
-
-[Pilih lisensi, mis. MIT, lalu tambahkan file LICENSE]
